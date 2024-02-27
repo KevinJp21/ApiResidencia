@@ -1,3 +1,8 @@
+<script>
+   $(document).ready( function () {
+        $('#propietario').DataTable();
+    } );
+</script> 
 <?php
 $curl = curl_init();
 curl_setopt_array($curl, array(
@@ -21,7 +26,7 @@ if ($err) {
 	$objeto = json_decode($response);
 	//print_r($objeto);
   ?>
-  <table class="table table-striped">
+  <table class="table table-striped" id="propietario">
     <thead>
         <tr>
            <th>ID</th>
