@@ -2,6 +2,11 @@
 
 ResidenciasAPI is an API designed to manage residential data, including apartments, payments, owners, rates, and towers. This project provides endpoints for performing CRUD operations on residential data, facilitating efficient management and integration with other systems.
 
+## Technologies Used
+
+- **PHP**
+- **MySQL**
+
 ## Endpoints
 
 ### Get Owner
